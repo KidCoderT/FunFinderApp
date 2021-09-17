@@ -41,7 +41,7 @@ class AuthenticationActivity : AppCompatActivity() {
         val signInIntent = AuthUI.getInstance()
             .createSignInIntentBuilder()
             .setAvailableProviders(providers)
-            .setLogo(R.drawable.smili_icon_large)
+            .setLogo(R.drawable.auth_bg)
             .setTheme(R.style.firebase_ui_auth_style)
             .build()
 

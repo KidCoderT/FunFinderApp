@@ -19,10 +19,4 @@
         <item name="colorPrimaryDark">@color/dark_blue</item>
         <item name="colorAccent">@color/red_pink</item>
     </style>
-
-    <style name="FirebaseUI.AuthMethodPicker.Logo">
-        <item name="android:layout_width">400dp</item>
-        <item name="android:layout_height">400dp</item>
-        <item name="android:layout_gravity">center</item>
-    </style>
 </resources>
