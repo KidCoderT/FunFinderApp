@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "655505977911",
+    "project_id": "funfinder-14f29",
+    "storage_bucket": "funfinder-14f29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655505977911:android:82549c5c38c04a315645b2",
+        "android_client_info": {
+          "package_name": "com.udacity.funfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655505977911-oaq5boub3kbjkq7u8u6994rb1f62894o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udacity.funfinder",
+            "certificate_hash": "80ac103d64696e2f820a9cadfaa9b0209972730e"
+          }
+        },
+        {
+          "client_id": "655505977911-a18cveljn4bjcrhus2pj5utg13c6q7dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqu5arSq1fjad2hy7I1LCfq1mrlSYQLBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655505977911-a18cveljn4bjcrhus2pj5utg13c6q7dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
