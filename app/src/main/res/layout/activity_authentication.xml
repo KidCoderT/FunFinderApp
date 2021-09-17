@@ -14,7 +14,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/smili_icon" />
+            app:srcCompat="@drawable/smily_icon" />
 
         <TextView
             android:id="@+id/title"

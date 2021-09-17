@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainFragment"
+        android:enabled="true"
+        android:title="Maps"/>
+    <item
+        android:id="@+id/favoritesFragment"
+        android:enabled="true"
+        android:title="Favorites"/>
+    <item
+        android:id="@+id/recentsFragment"
+        android:enabled="true"
+        android:title="Recents"/>
+
+</menu>

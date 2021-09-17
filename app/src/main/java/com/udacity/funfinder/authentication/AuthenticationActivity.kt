@@ -1,5 +1,6 @@
 package com.udacity.funfinder.authentication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +10,7 @@ import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
 import com.firebase.ui.auth.data.model.FirebaseAuthUIAuthenticationResult
 import com.udacity.funfinder.R
 import com.udacity.funfinder.databinding.ActivityAuthenticationBinding
+import com.udacity.funfinder.myapp.MainActivity
 
 class AuthenticationActivity : AppCompatActivity() {
     // registers a callback for the FirebaseUI Activity result contract:
@@ -53,9 +55,8 @@ class AuthenticationActivity : AppCompatActivity() {
 
     private fun onSignInResult(result: FirebaseAuthUIAuthenticationResult) {
         if (result.resultCode == RESULT_OK) {
-            Log.i(TAG, "It worked!")
-//            val intent = Intent(this, RemindersActivity::class.java)
-//            startActivity(intent)
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         } else {
             Log.i(TAG, "Error")
         }
